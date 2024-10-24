@@ -3,8 +3,8 @@ import os
 import torch
 import torch.nn as nn
 
-from utils import utils
-from utils.BaseMMVae import BaseMMVae
+from MoPoE.utils import utils
+from MoPoE.utils.BaseMMVae import BaseMMVae
 
 class VAEbimodalCelebA(BaseMMVae, nn.Module):
     def __init__(self, flags, modalities, subsets):

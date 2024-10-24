@@ -22,7 +22,7 @@ from celeba.networks.ConvNetworkTextClfCelebA import ClfText as ClfText
 from celeba.networks.ConvNetworksImgCelebA import EncoderImg, DecoderImg
 from celeba.networks.ConvNetworksTextCelebA import EncoderText, DecoderText
 
-from utils.BaseExperiment import BaseExperiment
+from MoPoE.utils.BaseExperiment import BaseExperiment
 
 
 LABELS = ['5_o_Clock_Shadow', 'Arched_Eyebrows', 'Attractive',
@@ -44,7 +44,7 @@ class CelebaExperiment(BaseExperiment):
         self.flags = flags;
         self.dataset = flags.dataset;
         self.plot_img_size = torch.Size((3, 64, 64))
-        self.font = ImageFont.truetype('FreeSerif.ttf', 38)
+        # self.font = ImageFont.truetype('FreeSerif.ttf', 38)
 
         self.alphabet = alphabet;
         self.flags.num_features = len(alphabet);

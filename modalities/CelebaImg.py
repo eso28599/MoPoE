@@ -9,8 +9,8 @@ from PIL import ImageDraw
 
 from modalities.Modality import Modality
 
-from utils import utils
-from utils.save_samples import write_samples_img_to_file
+from MoPoE.utils import utils
+from MoPoE.utils.save_samples import write_samples_img_to_file
 
 
 class Img(Modality):

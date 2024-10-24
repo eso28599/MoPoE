@@ -7,7 +7,7 @@ from divergence_measures.kl_div import calc_kl_divergence_lb_gauss_mixture
 from divergence_measures.kl_div import calc_kl_divergence_ub_gauss_mixture
 from divergence_measures.kl_div import calc_entropy_gauss
 
-from utils.utils import reweight_weights
+from MoPoE.utils.utils import reweight_weights
 
 
 def poe(mu, logvar, eps=1e-8):

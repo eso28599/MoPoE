@@ -1,6 +1,6 @@
 
 import argparse
-from utils.BaseFlags import parser as parser
+from MoPoE.utils.BaseFlags import parser as parser
 
 # DATASET NAME
 parser.add_argument('--dataset', type=str, default='CelebA', help="name of the dataset")

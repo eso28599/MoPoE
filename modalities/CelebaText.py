@@ -4,10 +4,10 @@ import torch
 
 from modalities.Modality import Modality
 
-from utils import utils
-from utils import plot
-from utils.save_samples import write_samples_text_to_file
-from utils.text import tensor_to_text
+from MoPoE.utils import utils
+from MoPoE.utils import plot
+from MoPoE.utils.save_samples import write_samples_text_to_file
+from MoPoE.utils.text import tensor_to_text
 
 
 class Text(Modality):

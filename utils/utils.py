@@ -15,6 +15,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.utils.multiclass import unique_labels
 
 from utils import text as text
+import dist 
 
 
 # Print iterations progress

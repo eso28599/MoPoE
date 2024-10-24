@@ -10,7 +10,7 @@ from divergence_measures.mm_div import calc_alphaJSD_modalities
 from divergence_measures.mm_div import calc_group_divergence_moe
 from divergence_measures.mm_div import poe
 
-from utils import utils
+from MoPoE.utils import utils
 
 
 class BaseMMVae(ABC, nn.Module):

@@ -1,7 +1,7 @@
 import math
 import torch
 
-from utils.utils import reweight_weights
+from MoPoE.utils.utils import reweight_weights
 
 
 def calc_kl_divergence(mu0, logvar0, mu1=None, logvar1=None, norm_value=None):

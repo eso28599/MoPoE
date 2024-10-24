@@ -6,7 +6,7 @@ import PIL.Image as Image
 
 import torch
 
-from utils import text as text
+from MoPoE.utils import text as text
 
 
 class CelebaDataset(Dataset):
